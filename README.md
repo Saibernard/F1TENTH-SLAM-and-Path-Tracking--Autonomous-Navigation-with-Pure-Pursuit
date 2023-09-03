@@ -26,6 +26,11 @@ This project delves into the intricacies of autonomous navigation by bridging th
 where `y` is the lateral offset of the robot from the path and `L` is the look-ahead distance.
 - **Testing:** Initial tests were carried out in a simulator environment using the robot's ground truth pose for validation. When transitioning to real-world tests, the particle filter's localization output was integrated to offer real-time updates to the algorithm.
 
+![image](https://github.com/Saibernard/F1TENTH-SLAM-and-Path-Tracking--Autonomous-Navigation-with-Pure-Pursuit/assets/112599512/d99a1d82-fd91-4174-b7bc-0b13ebbd9420)
+
+![image](https://github.com/Saibernard/F1TENTH-SLAM-and-Path-Tracking--Autonomous-Navigation-with-Pure-Pursuit/assets/112599512/858912d0-cd9f-4e82-ac13-bff97ee292ae)
+
+
 ## 4. Logging and Interpolating Waypoints
 
 - **Joystick-driven Path Recording:** A ROS node was crafted to subscribe to the robot's pose, updated by the particle filter. This real-time pose data was archived as waypoints in a `.csv` format.
