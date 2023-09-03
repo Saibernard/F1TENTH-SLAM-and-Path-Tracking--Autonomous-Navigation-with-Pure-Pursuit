@@ -35,5 +35,17 @@ where `y` is the lateral offset of the robot from the path and `L` is the look-a
 
 - **Purpose:** Visualization is essential for debugging, validation, and real-time tracking.
 - **Techniques:** This project integrated `visualization_msgs` messages within the ROS framework to project the list of waypoints. In tandem with RViz, a dynamic visualization of the currently pursued waypoint was displayed, aiding in real-time adjustments and validations.
+- 
+## Simulation and hardware results:
+
+### Simulation in Rviz
+
+https://youtu.be/Bi7jUtaWYeA
+
+### Implementation in actual f1 tenth car
+
+https://youtube.com/shorts/ONBXS3RRPFw?si=BXFFLPhO8Ma_g1Zz
+
+
 
 The codebase encompasses a rich blend of robotics algorithms and techniques. It serves as a comprehensive resource for roboticists and researchers looking to delve deep into the realm of autonomous navigation, offering both code and conceptual depth.
